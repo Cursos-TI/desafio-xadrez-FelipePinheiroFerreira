@@ -30,5 +30,21 @@ int main() {
 
     printf("\n");
 
+ // Simulação do movimento da RAINHA
+
+ // A Rainha pode se mover em todas as direções
+    // Vamos simular 8 movimentos para a Esquerda
+    int casasRainha = 8;
+    printf("Movimento da Rainha (8 casas para a Esquerda):\n");
+
+    int j = 1;
+    do {
+        printf("Esquerda\n");
+        j++;
+    } while (j <= casasRainha);
+
+    return 0;
+}
+
     return 0;
 }
