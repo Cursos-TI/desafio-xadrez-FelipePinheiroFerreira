@@ -10,6 +10,12 @@ int main() {
     int casasTorre = 5;
     printf("Movimento da Torre (5 casas para a Direita):\n");
 
-    
+     // Usando for para a Torre
+     for (int i = 1; i <= casasTorre; i++) {
+        printf("Direita\n");
+    }
+
+    printf("\n");  // Separador visual
+
     return 0;
 }
