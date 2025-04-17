@@ -15,7 +15,20 @@ int main() {
         printf("Direita\n");
     }
 
-    printf("\n");  // Separador visual
+    printf("\n"); 
+
+     // Simulação do movimento do BISPO 
+
+     int casasBispo = 5;
+    printf("Movimento do Bispo (5 casas na Diagonal para Cima Direita):\n");
+
+    int i = 1;
+    while (i <= casasBispo) {
+        printf("Cima Direita\n");
+        i++;
+    }
+
+    printf("\n");
 
     return 0;
 }
